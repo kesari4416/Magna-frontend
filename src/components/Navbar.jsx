@@ -18,7 +18,7 @@ export const Navbar = () => {
     <header className="sticky top-0 z-50 glass" data-testid="site-navbar">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-24">
         <Link to="/" className="flex items-center gap-3" data-testid="logo-link">
-          <img src="/magna-logo.png" alt="Magna Hospital" className="h-16 md:h-20 w-auto" />
+          <img src="/hospital.png" alt="Magna Hospital" className="h-16 md:h-20 w-auto" style={{ height: "170px", width: "auto", mixBlendMode: "multiply" }}/>
         </Link>
         <nav className="hidden lg:flex items-center gap-8">
           {links.map((l) => (

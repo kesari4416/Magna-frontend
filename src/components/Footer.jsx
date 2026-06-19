@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
         <div>
           <div className="mb-4 inline-block bg-white rounded-2xl p-4">
-            <img src="/magna-logo.png" alt="Magna Hospital" className="h-16 w-auto" />
+            <img src="/magnaLogo.png" alt="Magna Hospital" className="h-24 w-auto" />
           </div>
           <p className="text-sm text-white/70 leading-relaxed">
             Delivering compassionate, world-class healthcare with a personal touch. Open 24 hours, every day.
