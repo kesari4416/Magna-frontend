@@ -20,7 +20,7 @@ export const Navbar = () => {
         <Link to="/" className="flex items-center gap-3" data-testid="logo-link">
           <img src="/magna-logo.png" alt="Magna Hospital" className="h-16 md:h-20 w-auto" />
         </Link>
-
+           style={{ height: "120px", width: "auto", mixBlendMode: "multiply" }}
         <nav className="hidden lg:flex items-center gap-8">
           {links.map((l) => (
             <NavLink
